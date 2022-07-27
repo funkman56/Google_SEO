@@ -1,0 +1,30 @@
+# file path
+
+pip list file path --> /Users/relieak/.local/lib/python3.9/site-packages/
+
+PyInstaller path --> /Users/relieak/.local/lib/python3.9/site-packages/PyInstaller
+
+
+# python
+
+-m mod : run library module as a script (terminates option list)
+
+
+# execute pyinstaller on Mac
+
+  >> python -m PyInstaller filename.py
+
+
+
+
+# Set Shortcut 
+
+You can also make a shortcut on Mac
+
+Step 1 : Open terminal
+
+Step 2 : vi /Users/Relieak/.zshrc
+
+Step 3 : alias pyinstaller="/opt/anaconda3/bin/python -m PyInstaller"
+
+Step 4 : source .zshrc
