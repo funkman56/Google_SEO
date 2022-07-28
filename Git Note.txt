@@ -17,4 +17,4 @@ step 3  Git command
             $ git commit -m "first commit"
             $ git push (git push -f)
 
-            $git help            
+            $ git help (git -h)            
